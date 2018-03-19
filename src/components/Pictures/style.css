@@ -1,0 +1,26 @@
+
+.photos{
+	list-style: none;
+}
+
+.photos img{
+  width: 300px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px;
+  float: left;
+}
+.contain{
+	margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+.photos img{
+  width: 400px;
+  list-style-type: none;
+  display: inline-block;
+  margin: 10px 100px;
+  float: left;
+}
+ }
+
