@@ -2,7 +2,7 @@
   "name": "insta-react",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://vanehuanchicay.gitbub.io/react-insta",
+  "homepage": "https://vanehuanchicay.gitbub.io/react-insta",
   "dependencies": {
     "firebase": "^4.11.0",
     "gh-pages": "^1.1.0",
@@ -20,5 +20,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }
